@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -52,6 +53,7 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+
                     <li>
                         <a class="page-scroll" href="#about">Program</a>
                     </li>
@@ -59,11 +61,11 @@
                         <a class="page-scroll" href="#download">Hotel</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Registration</a>
+                        <a class="page-scroll" href="#registration">Registration</a>
                     </li>
-                    <li>
+<!--                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -72,7 +74,7 @@
     </nav>
 
     <!-- Intro Header -->
-    <header class="intro">
+    <header class="intro" id="home">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
@@ -81,7 +83,7 @@
                         <img src="img/rteurope.png">
                         <p class="intro-text">VIENNA<br>MAY 26th - MAY 29th 2016</p>
                         <h2>Commemorating 60 years of tabling 1956-2016</h2>
-                        <p>Roundtable (Austria) 1 is committed to exclusive social and corporate networking and its association with charitable fund raising activities and community service projects.</p>
+                        <p class="intro-text">Roundtable (Austria) 1 is committed to exclusive social and corporate networking and its association with charitable fund raising activities and community service projects.</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -122,21 +124,26 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>MOTEL ONE STAATSOPER WIEN</h2>
                     <p>Please refer to "EUROPE ONE 2016" for special rates.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">CONTACT MOTAL ONE</a>
+                    <a href="" class="btn btn-default btn-lg">CONTACT MOTAL ONE</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
+    <section id="registration" class="container content-section text-center">
+        <div class="row" style="margin-bottom: 45px">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
+                <h2>REGISTRATION RT EUROPE ONE 2016</h2>
+                <p style="font-size: 16px">MEMBER FEE<br>
+                €340 (until December 31st 2015)<br>
+                €380 (later than December 31st 2015)<br><br>
+                PARTNER FEE<br>
+                €290</p>
+
+
+
+<!--                 <ul class="list-inline banner-social-buttons">
                     <li>
                         <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
@@ -146,18 +153,101 @@
                     <li>
                         <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
                     </li>
-                </ul>
+                </ul> -->
             </div>
         </div>
+
+        <form>
+
+        <h2 style="font-size: 20px">MEMBER REGISTRATION</h2>
+
+        <div class="row" style="margin-bottom: 35px;">
+            <div class="col-lg-4 col-lg-offset-2">
+                <label>Firstname</label>
+                <input name="firstname" id="firstname" class="form-control" type="text" value="">
+            </div>
+
+            <div class="col-lg-4">
+                <label>Lastname</label>
+                <input name="lastname" id="firstname" class="form-control" type="text" value="">
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom: 35px;">
+            <div class="col-lg-4 col-lg-offset-2">
+                <label>Table</label>
+                <input name="table" id="firstname" class="form-control" type="text" value="">
+            </div>
+
+            <div class="col-lg-4">
+                <label>Country</label>
+                <input name="country" id="firstname" class="form-control" type="text" value="">
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom: 35px;">
+            <div class="col-lg-4 col-lg-offset-2">
+                <label>Street / Number</label>
+                <input name="street" id="firstname" class="form-control" type="text" value="">
+            </div>
+
+            <div class="col-lg-4">
+                <label>ZIP Code</label>
+                <input name="zip" id="firstname" class="form-control" type="text" value="">
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom: 35px;">
+            <div class="col-lg-4 col-lg-offset-2">
+                <label>Email</label>
+                <input name="firstname" id="firstname" class="form-control" type="email" value="">
+            </div>
+
+            <div class="col-lg-4">
+                <label>Phone</label>
+                <input name="lastname" id="firstname" class="form-control" type="text" value="">
+            </div>
+        </div>
+
+
+        <h2 style="font-size: 20px; padding-top: 55px;">PARTNER REGISTRATION</h2>
+
+        <div class="row" style="margin-bottom: 35px;">
+            <div class="col-lg-4 col-lg-offset-2">
+                <label>Firstname</label>
+                <input name="partner_firstname" id="firstname" class="form-control" type="text" value="">
+            </div>
+
+            <div class="col-lg-4">
+                <label>Lastname</label>
+                <input name="partner_lastname" id="firstname" class="form-control" type="text" value="">
+            </div>
+        </div>
+
+
+
+        <div class="row" style="padding-top: 35px">
+
+            <div class="col-lg-4 col-lg-offset-4">
+                <button id="button_loader" class="btn btn-default btn-lg" type="submit" data-loading-text="Thank you :-)">Register for RT EUROPE ONE 2016</button>
+            </div>
+
+        </div>
+
+
+
+        </form>
+
+
     </section>
 
     <!-- Map Section -->
-    <div id="map"></div>
+<!--     <div id="map"></div> -->
 
     <!-- Footer -->
-    <footer>
+    <footer style="background-color: white; color: black; margin-top: 100px">
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2014</p>
+            <p>Copyright &copy; RT ONE VIENNA AUSTRIA 2015</p>
         </div>
     </footer>
 

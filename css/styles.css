@@ -1,0 +1,13 @@
+form {
+/*  text-align: left;*/
+}
+
+label {
+ font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+input {
+  border-radius: 0px !important;
+  background-color: #ecf0f1 !important;
+  border: 0px !important;
+}
