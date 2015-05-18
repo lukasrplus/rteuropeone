@@ -8,7 +8,7 @@ label {
 
 input {
   border-radius: 0px !important;
-  background-color: #ecf0f1 !important;
+  background-color: grey !important;
   border: 0px !important;
 }
 
@@ -25,6 +25,7 @@ table {
   font-weight: lighter;
   text-align: left;
   margin-left: 10%;
+  margin-bottom: 50px;
 }
 
 tr {
@@ -34,4 +35,9 @@ tr {
 td {
   background-color: grey;
   padding: 10px;
+}
+
+#registration-form {
+  background-color: white;
+  color: black;
 }
