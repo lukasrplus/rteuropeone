@@ -8,8 +8,9 @@ label {
 
 input {
   border-radius: 0px !important;
-  background-color: grey !important;
+  background-color: #bdc3c7 !important;
   border: 0px !important;
+  color: black;
 }
 
 h2 {
